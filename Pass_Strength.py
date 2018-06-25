@@ -124,7 +124,6 @@ class Password_Strength:
                 100% is assumed as the strongest password
                 0% is assumed as the weakest password
 
-        @override method
         __str__(self)
             This method will be used to convert the class object returned by :func printscore(self)
             :returns score: :type str : Returns a score + %
